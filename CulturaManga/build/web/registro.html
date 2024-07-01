@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrarse - Cultura Manga</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Registrarse</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="login.jsp">Iniciar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <form action="RegistroServlet" method="post">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </main>
+    <footer>
+        <p>Cultura Manga</p>
+    </footer>
+</body>
+</html>
